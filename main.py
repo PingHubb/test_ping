@@ -104,7 +104,7 @@ optimizer = torch.optim.SGD(params=model_0.parameters(), # parameters of target 
 torch.manual_seed(42)
 
 # Set the number of epochs (how many times the model will pass over the training data)
-epochs = 200
+epochs = 160
 
 # Create empty loss lists to track values
 train_loss_values = []
@@ -181,3 +181,6 @@ with torch.inference_mode():
 
 plot_predictions(predictions=y_preds)
 plt.show()
+
+print("hoho")
+print("test2")
